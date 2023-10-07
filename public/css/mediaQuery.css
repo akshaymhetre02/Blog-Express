@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+	.header {
+		grid-template-columns: auto 1fr auto;
+		grid-template-areas: "logo menu button";
+	}
+
+	.article-ul li a {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.article-list__date {
+		text-align: right;
+	}
+}
